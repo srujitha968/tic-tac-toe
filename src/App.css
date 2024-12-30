@@ -1,0 +1,46 @@
+#main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #86fde8; 
+  }
+#cell1, #cell2, #cell3, #cell4, #cell5, #cell6, #cell7, #cell8, #cell0{
+  width: 100px;
+  height: 100px;
+  background-color: #acb6e5;
+  font-size:x-large;
+  font-weight: bolder;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#sub{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5px;
+  column-gap: 5px;
+}
+button{
+  width: 90px;
+  height: 38px;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #869af3;
+  font-size: larger;
+  border: none;
+}
+button:hover{
+  width: 110px;
+  height: 43px;
+  font-size: x-large;
+  box-shadow: 2px 2px 2px 2px black;
+}
+p{
+  font-size:xx-large;
+  font-weight: bolder;
+  color: red;
+}
