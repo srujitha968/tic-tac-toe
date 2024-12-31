@@ -17,6 +17,7 @@ function App() {
       if (x.every(index => c[index] === player)) {
         document.getElementById('result').innerHTML = `${player}  is winner`
         setgame(true)
+        return
       }
       else if(count===9){
         document.getElementById('result').innerHTML="It's a draw"
